@@ -1,76 +1,164 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+    <title>Personal website</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="styles.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
-	<title>Personal website</title>
-</head>
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-lg" style="background-color: #cd9dcd">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-code-slash"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+              />
+            </svg>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="section-apresentacao">
+        <img
+          src="personal_photo.jpg"
+          alt=""
+          width="250"
+          class="rounded border border-primary"
+        />
+        <h1 class="font-weight-bold text-uppercase">Java Developer Junior</h1>
+      </section>
+      <section class="section-about">
+        <h1 class="font-weight-bold text-uppercase">About me</h1>
+        <p>
+          Olá, me chamo Julio Cesar. Obrigado por acessar meu perfil. Que tal
+          nos apresentarmos? <br />
+          Sou apaixonado por números, desafios, quebra-cabeças, raciocínio
+          lógico, encontrar soluções para questões difíceis e principalmente por
+          tecnologia. Desde o ensino fundamental sempre tive interesse em
+          resolver problemas matemáticos e como os seus pensadores conseguiram
+          resolver equações tão difíceis, através do estudo e da lógica. Por
+          essa razão busquei uma área onde pudesse utilizar o pensamento
+          lógico-matemático para criar soluções que pudessem melhorar a vida das
+          pessoas e me desafiar constantemente, e foi assim que encontrei a
+          programação.
+        </p>
+        <p>
+          Para alcançar meu objetivo curso Desenvolvimento e Análise de
+          Sistemas, no período noturno, com previsão de término em Junho de
+          2023. Na faculdade desenvolvo diferentes projetos semestrais, por
+          exemplo, criação de sites e softwares utilizando a linguagem Java com
+          foco em backend, mas estou aberto para aprender outras linguagens e
+          até ser FullStack. Há mais de dois anos uso tecnologias como
+          JavaScript, Spring boot , MySQL , API. Também trabalho com Trello para
+          organizar o cronograma dos projetos, metodologia Scrum e o Figma para
+          o Design dos projetos. Você pode acompanhar meus trabalhos em:
+          https://github.com/JulioDesar Minhas Soft Skills são: comunicação
+          assertiva, pensamento analítico, organização, criatividade,
+          determinação, autodidatismo, capacidade de resolver problemas,
+          resiliência, flexibilidade, perseverança Busco oportunidades como Java
+          Júnior, contudo, estou aberto a desafios, aprender novas tecnologias e
+          explorar novos caminhos na área de tecnologia. Acompanhe minhas
+          postagens , projetos e caso queira conversar, deixo abaixo meus canais
+          de comunicação. Julio Cesar Dev Junior Java
+        </p>
+        <p>
+          E-mail: devjuliodesar@gmail.com <br />
+          Portfólio:
+          <a
+            href="https://github.com/JulioDesar"
+            class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+            >JulioDesar</a
+          >
+          <br />
+          Linkedin:
+          <a
+            href="https://www.linkedin.com/in/juliodesar/"
+            class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+            >Julio Cesar</a
+          ><br />
+          Canal:
+          <a
+            href="https://www.youtube.com/@jddev158"
+            class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+            >JulioDev</a
+          >
+        </p>
+      </section>
+      <section class="section-projetos">
+        <h1 class="font-weight-bold text-uppercase">Portfolio</h1>
 
-<body>
-	<main>
-		<nav class="navbar navbar-expand-lg" style="background-color: #cd9dcd">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#">
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-						class="bi bi-code-slash" viewBox="0 0 16 16">
-						<path
-							d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
-					</svg>
-				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-					aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Portfolio</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<section class="section-apresentacao">
-			<img src="" alt="">
-			<h1>Java Developer Junior</h1>
-		</section>
-		<section>
-			<h1>About me</h1>
-			<p>lorem iosun aksidhj aslkjdsjkad alksjlas</p>
-		</section>
-		<section>
-			<h1>Portfolio</h1>
-			<p>cards 1</p>
-			<p>cards 2</p>
-			<p>cards 3</p>
-		</section>
-		<section>
-			<h1>Contact</h1>
-			<p>form</p>
-		</section>
-	</main>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-		crossorigin="anonymous"></script>
-</body>
-
+        <div>
+          <a href="https://smilesenac.netlify.app" class="link-offset-2 link-underline link-underline-opacity-0">
+            <div class="card" style="width: 14rem">
+              
+              <div class="card-body">
+                <p class="card-text">
+                  Smile é um projeto landing page desenvolvido em grupo para um dentista local que precisava de um site para divulgar seu trabalho.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section>
+        <h1 class="font-weight-bold text-uppercase">Contact</h1>
+        <p>form</p>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

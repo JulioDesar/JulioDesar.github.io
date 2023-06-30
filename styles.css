@@ -10,10 +10,44 @@ body {
 }
 
 section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 1em 0;
 }
 
 .section-apresentacao {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+  font-size: 2em;
+}
+
+.section-about {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.section-about h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.section-about p {
+  display: block;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.section-projetos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-projetos div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
 }
